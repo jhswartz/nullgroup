@@ -50,7 +50,7 @@ root@somewhere# chgrp null /tmp/towntalk
 #   the user that owns the test file to read from it or write to it;
 #   the group that owns the test file to read from it;
 #   and others to have no access to the test file at all.
-root@somewhere# chown 640 /tmp/towntalk
+root@somewhere# chmod 640 /tmp/towntalk
 
 # Verify the test file's ownership and permissions.
 root@somewhere# ls -al /tmp/towntalk
