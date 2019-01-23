@@ -77,6 +77,7 @@ static void __exit nullgroup_exit(void)
 MODULE_VERSION("0.0.1");
 MODULE_AUTHOR("Justin Swartz <justin.swartz@risingedge.co.za>");
 MODULE_LICENSE("GPL");
+MODULE_INFO(livepatch, "Y");
 
 module_init(nullgroup_init);
 module_exit(nullgroup_exit);
